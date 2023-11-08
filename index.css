@@ -20,7 +20,7 @@ h3.intro {
 }
 
 .intro {
-    width: 800px;
+    width: 800px; 
     
 }
 .main-title {
@@ -44,4 +44,7 @@ img {
     float:right;
     padding: 10px;
     overflow:hidden
+}
+.contact-form {
+    width: 800px;
 }
