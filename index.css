@@ -1,1 +1,47 @@
 /* Just want to get stuff in CSS*/
+body {
+    background-color:aliceblue;
+}
+
+nav {
+    display:flex;
+    padding: 10px;
+    margin: 10px;
+    justify-content:space-between;
+    background-color: white;
+}
+
+.searchbar {
+    float:right;
+}
+
+h3.intro {
+    display:block;
+}
+
+.intro {
+    width: 800px;
+    
+}
+.main-title {
+    left: 25%;
+    top: 40px;
+    position:absolute;
+}
+
+a {
+    color:black;
+}
+
+p.intro {
+    float: left;
+    width: 15px;
+}
+
+img {
+    width:300px;
+    display: inline-block;
+    float:right;
+    padding: 10px;
+    overflow:hidden
+}
