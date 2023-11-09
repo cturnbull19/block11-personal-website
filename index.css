@@ -31,7 +31,8 @@ p.intro {
 }
 
 .contact-form {
-    width: 75%
+    width: 75%;
+    
 }
 
 .princess-caroline {
@@ -60,4 +61,9 @@ p.intro {
     top: 10%;
     width: 15%;
     padding-left:10px;
+}
+
+.red-lentil {
+    font-size: 11px;
+    margin-top: 2px;
 }
