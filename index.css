@@ -1,6 +1,6 @@
 /* Just want to get stuff in CSS*/
 body {
-    background-color:aliceblue;
+    background-color:#ffeef8;
 }
 
 .grid-container {
@@ -9,14 +9,14 @@ body {
     grid-template-rows: 1fr 1fr;
     width: 50%;
     row-gap: 1em;
+    border-style: solid;
+    background-color:#ffe2f3;
+    border-color:white;
+    border-width: 4px;
 }
 
-a {
-    background-color: white;
-}
 .searchbar{
     grid-column: 1/1;
-    background-color: white;
 }
 
 .main-title {
@@ -34,7 +34,6 @@ p.intro {
     width: 75%
 }
 
-
 .princess-caroline {
     width: 35%;
     float: right;
@@ -45,4 +44,20 @@ p.intro {
     right: 10%;
 }
 
+/* All of this CSS will apply to About Page*/
 
+.my-life {
+    width: 75%;
+}
+
+.hobbies{
+    width: 75%;
+}
+
+.side-links {
+    float: right;
+    position: sticky;
+    top: 10%;
+    width: 15%;
+    padding-left:10px;
+}
