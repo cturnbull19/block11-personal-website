@@ -7,15 +7,34 @@ body {
     display:grid;
     grid-template-columns: 1fr 1fr 1fr;
     grid-template-rows: 1fr 1fr;
+    width: 50%;
+}
+
+.searchbar{
+    grid-column: 1/1;
+}
+
+p.intro {
+    width: 45%;
+}
+
+.quote {
+    width: 75%;
+}
+
+.contact-form {
+    width: 75%
 }
 
 
 img {
-    width:300px;
-    display: inline-block;
-    float:right;
+    width: 35%;
+    float: right;
     padding: 10px;
-    overflow:hidden
+    overflow:hidden;
+    top: 15%;
+    position: absolute;
+    right: 10%;
 }
 
 
