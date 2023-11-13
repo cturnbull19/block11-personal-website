@@ -67,3 +67,10 @@ p.intro {
     font-size: 11px;
     margin-top: 2px;
 }
+
+@media (max-width:1050px) {
+    .Grid-container{
+        margin:0 auto !important;
+        padding:0 auto !important;
+    }
+}
